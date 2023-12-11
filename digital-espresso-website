@@ -1,0 +1,279 @@
+mkdir digital-espresso-website
+cd digital-espresso-website
+------------------------------------------
+nano index.html
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Digital Espresso</title>
+</head>
+<body>
+    <header>
+    <img src="ESPRESSO LOG.jpeg" alt="Digital Espresso Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="branches.html">Branches</a></li>
+                <li><a href="aboutus.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
+
+------------------------------------------
+nano branches.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>Branches - Digital Espresso</title>
+</head>
+
+<body>
+    <header>
+        <img src="ESPRESSO LOG.jpeg" alt="Digital Espresso Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="branches.html">Branches</a></li>
+                <li><a href="aboutus.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="branches">
+        <h1>Our Branches</h1>
+
+        <div class="branch">
+            <h2>Main Branch</h2>
+            <p>Address: 456 Mabini Street, Bonifacio Avenue, Quezon City</p>
+            <p>Phone: (0917)555 6666 </p>
+            <p>Email: mainbranch@digitalespresso.com</p>
+        </div>
+
+        <div class="branch">
+            <h2>City Center Branch</h2>
+            <p>Address: 596 Joshua Avenue, Seventeen Town</p>
+            <p>Phone: (0917) 987-6543</p>
+            <p>Email: citycenter@digitalespresso.com</p>
+        </div>
+
+</body>
+
+</html>
+------------------------------------------
+nano products.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>Products - Digital Espresso</title>
+</head>
+
+<body>
+    <header>
+        <img src="ESPRESSO LOG.jpeg" alt="Digital Espresso Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="branches.html">Branches</a></li>
+                <li><a href="aboutus.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h1>Our Products</h1>
+
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <td><a href="coffee1.html">Premium Blend Coffee</a></td>
+                <td>A rich and aromatic blend of the finest coffee beans.</td>
+                <td><img src="COFFEE1.jpeg" alt="Premium Blend Coffee"></td>
+            </tr>
+                <td><a href="coffee2.html">Extra Premium Blend Coffee</a></td>
+                <td>An extra rich and aromatic blend of the ultra finest coffee$
+                <td><img src="COFFEE2.jpeg" alt="Ultra Premium Blend Coffee"></$
+            <!-- Add more product rows as needed -->
+        </table>
+    </section>
+
+</body>
+
+</html>
+------------------------------------------
+nano aboutus.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>About Us - Digital Espresso</title>
+</head>
+
+<body>
+    <header>
+        <img src="ESPRESSO LOG.jpeg" alt="Digital Espresso Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="branches.html">Branches</a></li>
+                <li><a href="aboutus.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about-us">
+        <h1>About Us</h1>
+        <p>Welcome to Digital Espresso, where passion meets perfection in every$
+        <p>At Digital Espresso, we source the finest coffee beans from around t$
+        <p>Explore our website to discover our range of premium coffee products$
+    </section>
+
+</body>
+
+</html>
+------------------------------------------
+coffee1.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>Premium Blend Coffee - Digital Espresso</title>
+</head>
+
+<body>
+    <header>
+        <img src="ESPRESSO LOG.jpeg" alt="Digital Espresso Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="branches.html">Branches</a></li>
+                <li><a href="aboutus.html">About</a></li>
+           </ul>
+        </nav>
+    </header>
+
+    <section id="product-details">
+        <h1>Premium Blend Coffee</h1>
+        <img src="COFFEE1.jpeg" alt="Premium Blend Coffee">
+        <p>A rich and aromatic blend of the finest coffee beans. Savor the smoo$
+        <p>Features:</p>
+        <ul>
+            <li>100% Arabica beans</li>
+            <li>Medium roast</li>
+            <li>Full-bodied flavor</li>
+            <!-- Add more features as needed -->
+        </ul>
+        <p>Price: P1290 per bag (250g)</p>
+        <p><a href="products.html">Back to Products</a></p>
+    </section>
+
+</body>
+
+</html>
+------------------------------------------
+coffee2.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>Single Origin Espresso - Digital Espresso</title>
+</head>
+
+<body>
+    <header>
+        <img src="ESPRESSO LOG.jpeg" alt="Digital Espresso Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="branches.html">Branches</a></li>
+                <li><a href="aboutus.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="product-details">
+        <h1>Ultra Premium Espresso</h1>
+        <img src="COFFEE2.jpeg" alt="Single Origin Espresso">
+        <p>Indulge in the pure and distinct flavor of our Ultra Premium Espress$
+        <p>Features:</p>
+        <ul>
+            <li>100% Arabica beans</li>
+            <li>Dark roast</li>
+            <li>Distinctive flavor notes</li>
+            <!-- Add more features as needed -->
+        </ul>
+        <p>Price: $1499 per bag (250g)</p>
+        <p><a href="products.html">Back to Products</a></p>
+    </section>
+
+</body>
+
+</html>
+------------------------------------------
+nano styles.css
+
+/* styles.css */
+body {
+    background-color: #8B4513; /* Brownish-red background color */
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #654321; /* Darker brown header background */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #654321; /* Darker brown footer background */
+    padding: 10px;
+    text-align: center;
+}
+------------------------------------------
+
+# check the website here: file:///Users/mac/digital-espresso-website/index.html #
+
+
+
